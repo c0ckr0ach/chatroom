@@ -70,7 +70,7 @@ body {
 }
 
 .chat-screen .header {
-	background: #111;
+	background: #075E54;
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
@@ -103,9 +103,10 @@ body {
 }
 .chat-screen .messages .message > div {
 	max-width: 80%;
-	background: #fff;
+	background: rgb(198, 196, 196);
 	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.05);
 	padding: 10px;
+    border-radius: 15px;
 }
 .chat-screen .messages .message.my-message {
 	justify-content: flex-end;
@@ -135,14 +136,18 @@ body {
 	flex: 1;
 	height: 50px;
 	font-size: 18px;
+    border-radius: 15px;
+
 }
 .chat-screen .typebox button {
 	width: 80px;
 	height: 100%;
-	background: #111;
+	background: #25D366;
 	color: #eee;
 	font-size: 16px;
 	outline: none;
 	border: none;
 	cursor: pointer;
+    border-radius: 15px;
+    margin-left: 5px;
 }

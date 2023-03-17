@@ -73,7 +73,6 @@
 			el.innerText = message;
 			messageContainer.appendChild(el);
 		}
-		// scroll chat to end
 		messageContainer.scrollTop = messageContainer.scrollHeight - messageContainer.clientHeight;
 	}
 

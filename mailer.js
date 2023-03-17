@@ -14,8 +14,8 @@ async function main() {
   let info = await transporter.sendMail({
     from: '"Bit Crackerz" <bitcrackerz@gmail.com>',
     to: ["bitcrackerz@gmail.com", "debanga.cse@gmail.com", "test@gmail.com", "hrishi@gmail.com", "jyotishman@gmail.com", "abhilash@gmail.com"],
-    subject: "Testing, testing, 123",
-    html: "Hello"
+    subject: "This is the test subject",
+    html: "Hello World. This is the body of the email."
   });
 
   console.log(info.messageId); 
